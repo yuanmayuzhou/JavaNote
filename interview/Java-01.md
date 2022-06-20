@@ -1,3 +1,4 @@
+# Java面试题01
 ## 1、什么是B/S架构？什么是C/S架构
 
 1. B/S(Browser/Server)，浏览器/服务器程序
