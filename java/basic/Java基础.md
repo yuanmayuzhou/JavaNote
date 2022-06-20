@@ -236,3 +236,19 @@ public class Father {
 
 3.重载的时候，返回值类型可以相同也可以不相同。无法以返回型别作为重载函数的区分标准
 
+## 5.String，StringBuffer，StringBuilder
+
+String类中使用char[]数组来保存字符，使用final修饰，所以String是不可变的。
+
+StringBuffer和StringBuilder继承自AbstractStringBuilder，但是保存的char数组没有用final修饰，所以是可变的。
+
+线程安全性？
+
+String中的对象是不可变的，也就是常量，所以是线程安全的。
+
+StringBuffer对方法加了同步锁，所以是线程安全的。
+
+StringBuilder没有对方法加同步锁，线程不安全，但是性能比StringBuffer好一点。
+
+多线程对同一个String对象操作时，建议使用StringBuffer。
+
