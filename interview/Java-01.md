@@ -4,7 +4,7 @@
 
 2. C/S(Client/Server)，客户端/服务端，桌面应用程序
 
-2.C/S(Client/Server)，客户端/服务端，桌面应用程序
+3. C/S(Client/Server)，客户端/服务端，桌面应用程序
 
 ## 2、Java都有那些开发平台？
 
