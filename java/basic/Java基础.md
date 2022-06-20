@@ -19,16 +19,16 @@ String strr = “  zifu ”；
 
 辅助理解：
 ```java
-  String s1=“ java ”；
-  String s2=“ java ”；
-  System.out.println( s1==s2 ) // 输出true/false？
+String s1=“ java ”；
+String s2=“ java ”；
+System.out.println( s1==s2 ) // 输出true/false？
 ```
 答：true，因为字符串常量池中的“java”是不变的，所以⽆论是s1还是s2，储存的地址对应的都是那个字符串常量池中
 的“java”，所以⾃然储存的地址是相同的，⽽“==”⽐较地址，输出true；
 ```java
-  String s1=new String(“ java ”)；
-  String s2=new String(“ java ”)；
-  System.out.println( s1==s2 ) // 输出true/false？
+String s1=new String(“ java ”)；
+String s2=new String(“ java ”)；
+System.out.println( s1==s2 ) // 输出true/false？
 ```
 答：false，s1与s2只是储存了“=”右边在堆内存中创建的String对象的地址，⽽这俩个new出来的地址是不同的，所以输
 出“false”；
