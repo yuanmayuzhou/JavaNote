@@ -178,7 +178,7 @@ Redis本身提供的所有API都是原子操作，Redis中的事务其实是要�
 
 不一定， 将get和set改成单命令操作，incr 。使用Redis的事务，或者使用Redis+Lua==的方式实现。
 
-## 10.Redis事务
+## 11.Redis事务
 
 Redis事务功能是通过MULTI、EXEC、DISCARD和WATCH 四个原语实现的
 
