@@ -43,7 +43,7 @@ Java笔记、包含面试笔记、Java基础、Java并发编程、JVM、数据�
         - 命令模式(*)
 - 数据库
     - MySQL
-        - 一条SQL的执行过程(*)
+        - [一条SQL的执行过程](https://mp.weixin.qq.com/s/zVKXeWCeKWmqkztcc5baFQ)
         
         - InnoDB存储引擎(*)
         - MySQL索引优化(*)
